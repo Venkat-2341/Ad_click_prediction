@@ -17,7 +17,7 @@ class AdDetails(BaseModel):
     Male: int
     Country: str
 
-with open('./experiments/pipe.pkl', 'rb') as f:
+with open('./models/final.pkl', 'rb') as f:
     pipe = pickle.load(f)
 
 @app.post("/predict")
