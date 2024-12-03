@@ -38,12 +38,15 @@ pip install -r requirements.txt
 
 AD_CLICK_PREDICTION/
 │
+├── __pycache__/           # Python cache files
+│
 ├── data/
 │   └── advertising.csv    # Dataset for ad click prediction
 │
 ├── env/                   # Virtual environment files 
 │
 ├── experiments/           # Jupyter notebooks for experimentation
+│   ├── __pycache__/       # Cache files
 │   ├── eda.ipynb          # Exploratory Data Analysis notebook
 │   ├── model.ipynb        # Model training and evaluation notebook
 │   └── tests.ipynb        # Testing and debugging notebook
