@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 if __name__ == "__main__":
     try:
-        tprint("AD-CLick prediction")
+        tprint("AD-Click prediction")
         load_dotenv()
         
         host = os.environ["UVICORN_HOST"]
