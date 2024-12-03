@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 #### To run the model
 - In bash: python main.py
-- Then in the browser: http://<your-ip-address>:8080/docs
+- Then in the browser: http://your-ip-address:8080/docs
 - Use the predict endpoint to predict whether the gievn user will click the ad or not 
 
 ### Project WorkFlow
