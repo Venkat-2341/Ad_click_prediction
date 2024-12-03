@@ -30,7 +30,7 @@ pip install -r requirements.txt
 4. Saved the model using pickle and stored it in /models/final.pkl
 
 5. With the help of Pydantic, FastAPI and Uvicorn, built the app which when give the various input features gives us a binary output(0/1). 
-0 -- user will not click on the ad
+<!-- 0 -- user will not click on the ad
 1 -- user will click on the ad.
 
 
@@ -62,4 +62,4 @@ AD_CLICK_PREDICTION/
 ├── LICENSE                # Project license
 ├── main.py                # Main entry point for the project
 ├── README.md              # Project documentation
-└── requirements.txt       # Main project dependencies
+└── requirements.txt       # Main project dependencies -->
